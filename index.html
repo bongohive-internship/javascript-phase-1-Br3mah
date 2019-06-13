@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Possible Age</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="variables.js"></script>
+  </head>
+  <body style="padding:5%">
+    <div class="first_section" >
+        <h2>PossibLE AGE</h2>
+        <h5>Question 1</h5>
+        <small>Enter and calculate your future possible ages</small>
+        <hr>
+
+        <span>Date of Birth:</span> <input type="text" name="" id="dateOfbirth" value="" placeholder="Enter your date of bith here">
+
+        <span>Possible Date:</span> <input type="text" name="" id="futureDate" value="" placeholder="Enter a future date here">
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="getPossibleAge()" name="button">View</button>
+    </div>
+    <br>
+    <div class="second_section">
+       <P >You will be<span id="result"> ? </span></p>
+      <p>And seven years more older, you will be <span id="result2"> ? </span></p>
+    </div>
+    <hr>
+    <br>
+    <div>
+      <div>
+        <h5>Question 2</h5>
+        <small>Enter and calculate how much you would need for the rest of your life</small>
+        <hr>
+        <span>My Age:</span> <input type="text" name="" id="currAge" value="" placeholder="Enter your age">
+        <span>Future Age:</span> <input type="text" name="" id="futureAge" value="" placeholder="Enter a future age">
+        <span>Amount Per Day:</span> <input type="text" name="" id="amount" value="" placeholder="Enter amount per day">
+        <br>
+        <button type="button" class="btn btn-primary btn-sm" onclick="getLifeAmount()" name="button">View</button>
+      </div>
+    </div>
+    <div class="second_section">
+       <p class="alert alert-primary">You will need <span id="nn"> ? </span> to last you until the ripe old age of <span id="x"> ? </span></p>
+    </div>
+    <hr>
+  </body>
+
+</html>
